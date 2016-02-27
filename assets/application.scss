@@ -53,10 +53,9 @@ $stack-height: vertical(7);
 				display: block;
 				// font-weight: bold;
 				div {
-					width: vertical(0.5);
-					height: vertical(0.5);
-					border-radius: vertical(0.5);
-					// margin-bottom: vertical(0.02);
+					width: 14px;
+					height: 14px;
+					border-radius: 14px;
 					margin-right: 0.5ex;
 					display: inline-block;
 					&.in-developement { background: $orange; }

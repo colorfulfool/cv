@@ -58,9 +58,9 @@ p {
     .portfolio .cover .summary span {
       display: block; }
       .portfolio .cover .summary span div {
-        width: 13.5px;
-        height: 13.5px;
-        border-radius: 13.5px;
+        width: 14px;
+        height: 14px;
+        border-radius: 14px;
         margin-right: 0.5ex;
         display: inline-block; }
         .portfolio .cover .summary span div.in-developement {
