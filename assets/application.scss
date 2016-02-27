@@ -32,8 +32,8 @@ $cover-image-width: $total-width*0.6;
 		
 	}
 	.cover {
-		column-count: 2;
-		column-gap: 30px;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 30px;
 		margin: vertical(1) 0px;
 		width: $total-width*1.2;
 

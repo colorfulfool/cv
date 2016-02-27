@@ -31,8 +31,8 @@ p {
   .portfolio .name a {
     font-weight: bold; }
 .portfolio .cover {
-  column-count: 2;
-  column-gap: 30px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 30px;
   margin: 27px 0px;
   width: 96ch; }
   .portfolio .cover img {
