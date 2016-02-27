@@ -18,3 +18,17 @@ footer {
 	padding: vertical(2) 10px;
 	text-align: center;
 }
+
+img.me {
+	position: absolute;
+	left: 20px;
+	height: vertical(7);
+	width: vertical(6);
+	border-radius: 16px;
+
+	background: url(wide-photo.jpg);
+	background-size: 300%;
+	background-position: 50% 50%;
+
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.6);
+}
