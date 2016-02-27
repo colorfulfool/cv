@@ -37,7 +37,7 @@ $stack-height: vertical(7);
 	}
 	.cover {
 		-webkit-column-count: 2;
-		-webkit-column-gap: 35px;
+		-webkit-column-gap: 40px;
 		margin: vertical(1) 0px;
 		width: $total-width*1.25;
 		height: vertical(11);
@@ -46,8 +46,8 @@ $stack-height: vertical(7);
 		.summary {
 			display: inline-block;
 			img {
-				margin-top: vertical(3);
-				height: vertical(7);
+				margin-top: vertical(1);
+				height: vertical(6);
 			}
 			span {
 				display: block;

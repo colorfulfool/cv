@@ -38,7 +38,7 @@ p {
     font-weight: bold; }
 .portfolio .cover {
   -webkit-column-count: 2;
-  -webkit-column-gap: 35px;
+  -webkit-column-gap: 40px;
   margin: 27px 0px;
   width: 100ch;
   height: 297px; }
@@ -47,8 +47,8 @@ p {
   .portfolio .cover .summary {
     display: inline-block; }
     .portfolio .cover .summary img {
-      margin-top: 81px;
-      height: 189px; }
+      margin-top: 27px;
+      height: 162px; }
     .portfolio .cover .summary span {
       display: block; }
       .portfolio .cover .summary span.in-developement {
