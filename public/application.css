@@ -25,6 +25,13 @@ article {
   margin: 0 auto;
   line-height: 27px; }
 
+anchor {
+  position: absolute;
+  left: 2em;
+  text-transform: uppercase;
+  color: #b4b4b4;
+  letter-spacing: 2px; }
+
 section {
   margin-top: 54px; }
 
