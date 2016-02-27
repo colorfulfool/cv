@@ -27,6 +27,8 @@ p {
 
 .projects { margin-bottom: -1 * vertical(1); }
 
+$stack-height: vertical(7);
+
 .portfolio {
 	.name { 
 		margin-top: vertical(2);
@@ -35,7 +37,7 @@ p {
 	}
 	.cover {
 		-webkit-column-count: 2;
-		-webkit-column-gap: 30px;
+		-webkit-column-gap: 35px;
 		margin: vertical(1) 0px;
 		width: $total-width*1.25;
 		height: vertical(11);
@@ -44,7 +46,8 @@ p {
 		.summary {
 			display: inline-block;
 			img {
-				height: vertical(8);
+				margin-top: vertical(3);
+				height: vertical(7);
 			}
 			span {
 				display: block;
