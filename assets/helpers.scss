@@ -7,7 +7,12 @@ $base-height: 27px;
 $orange: #ff8800;
 $green: #00c776;
 
-@media only screen and (max-width: 1048px) {
+@media only screen and (min-width: 1000px) and (max-width: 1048px) {
+  img.me, anchor { left: 5px !important; };
+  nav li { padding-left: 10px !important; padding-right: 10px !important; }
+}
+
+@media only screen and (max-width: 1000px) {
   img.me, anchor { display: none };
   nav li { padding-left: 10px !important; padding-right: 10px !important; }
 }
