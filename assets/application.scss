@@ -23,8 +23,6 @@ p {
 
 buzzword {  }
 
-$cover-image-width: $total-width*0.6;
-
 .portfolio {
 	.name { 
 		margin-top: vertical(1);
@@ -35,9 +33,10 @@ $cover-image-width: $total-width*0.6;
 		-webkit-column-count: 2;
 		-webkit-column-gap: 30px;
 		margin: vertical(1) 0px;
-		width: $total-width*1.2;
+		width: $total-width*1.25;
+		height: vertical(11);
 
-		img { width: $cover-image-width; }
+		img { height: 100%; }
 		.summary {  }
 		span {
 			font-weight: bold;

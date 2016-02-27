@@ -34,9 +34,10 @@ p {
   -webkit-column-count: 2;
   -webkit-column-gap: 30px;
   margin: 27px 0px;
-  width: 96ch; }
+  width: 100ch;
+  height: 297px; }
   .portfolio .cover img {
-    width: 48ch; }
+    height: 100%; }
   .portfolio .cover span {
     font-weight: bold; }
     .portfolio .cover span.in-developement {
