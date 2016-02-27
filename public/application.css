@@ -15,7 +15,7 @@ h1 {
   margin: 0px; }
 
 article {
-  width: 80ch;
+  width: 75ch;
   margin: 0 auto;
   line-height: 27px; }
 
@@ -38,9 +38,9 @@ p {
     font-weight: bold; }
 .portfolio .cover {
   -webkit-column-count: 2;
-  -webkit-column-gap: 40px;
+  -webkit-column-gap: 0px;
   margin: 27px 0px;
-  width: 100ch;
+  width: 105ch;
   height: 297px; }
   .portfolio .cover img {
     height: 100%; }
@@ -57,7 +57,7 @@ p {
         color: #00c776; }
 
 .figure {
-  width: 80ch;
+  width: 75ch;
   text-align: center;
   height: 459px; }
   .figure span {
