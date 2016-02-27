@@ -14,6 +14,7 @@
     padding-right: 10px !important; } }
 body {
   font-family: Helvetica, sans-serif;
+  line-height: 27px;
   margin: 0; }
 
 header {
@@ -59,6 +60,7 @@ footer {
 
 img.me {
   position: absolute;
+  margin-top: 5px;
   left: 2em;
   height: 189px;
   width: 162px;
@@ -70,8 +72,7 @@ img.me {
 
 article {
   width: 75ch;
-  margin: 0 auto;
-  line-height: 27px; }
+  margin: 0 auto; }
 
 anchor {
   text-transform: uppercase;

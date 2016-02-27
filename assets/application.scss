@@ -2,6 +2,7 @@
 
 body {
 	font-family: Helvetica, sans-serif;
+	line-height: $base-height;
 	margin: 0;
 }
 
@@ -12,7 +13,6 @@ $total-width: 75ch;
 article {
 	width: $total-width;
 	margin: 0 auto;
-	line-height: $base-height;
 }
 
 anchor {
