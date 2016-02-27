@@ -57,10 +57,16 @@ p {
       height: 162px; }
     .portfolio .cover .summary span {
       display: block; }
-      .portfolio .cover .summary span.in-developement {
-        color: #ff8800; }
-      .portfolio .cover .summary span.in-production {
-        color: #00c776; }
+      .portfolio .cover .summary span div {
+        width: 13.5px;
+        height: 13.5px;
+        border-radius: 13.5px;
+        margin-right: 0.5ex;
+        display: inline-block; }
+        .portfolio .cover .summary span div.in-developement {
+          background: #ff8800; }
+        .portfolio .cover .summary span div.in-production {
+          background: #00c776; }
 
 .figure {
   width: 75ch;

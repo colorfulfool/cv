@@ -52,8 +52,16 @@ $stack-height: vertical(7);
 			span {
 				display: block;
 				// font-weight: bold;
-				&.in-developement { color: $orange; }
-				&.in-production { color: $green; }
+				div {
+					width: vertical(0.5);
+					height: vertical(0.5);
+					border-radius: vertical(0.5);
+					// margin-bottom: vertical(0.02);
+					margin-right: 0.5ex;
+					display: inline-block;
+					&.in-developement { background: $orange; }
+					&.in-production { background: $green; }
+				}
 			}
 		}
 	}
