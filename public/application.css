@@ -44,12 +44,16 @@ p {
   height: 297px; }
   .portfolio .cover img {
     height: 100%; }
-  .portfolio .cover span {
-    font-weight: bold; }
-    .portfolio .cover span.in-developement {
-      color: #ff8800; }
-    .portfolio .cover span.in-production {
-      color: #00c776; }
+  .portfolio .cover .summary {
+    display: inline-block; }
+    .portfolio .cover .summary img {
+      height: 216px; }
+    .portfolio .cover .summary span {
+      display: block; }
+      .portfolio .cover .summary span.in-developement {
+        color: #ff8800; }
+      .portfolio .cover .summary span.in-production {
+        color: #00c776; }
 
 .figure {
   width: 80ch;

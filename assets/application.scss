@@ -41,11 +41,17 @@ p {
 		height: vertical(11);
 
 		img { height: 100%; }
-		.summary {  }
-		span {
-			font-weight: bold;
-			&.in-developement { color: $orange; }
-			&.in-production { color: $green; }
+		.summary {
+			display: inline-block;
+			img {
+				height: vertical(8);
+			}
+			span {
+				display: block;
+				// font-weight: bold;
+				&.in-developement { color: $orange; }
+				&.in-production { color: $green; }
+			}
 		}
 	}
 }
