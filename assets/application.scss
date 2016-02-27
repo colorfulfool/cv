@@ -21,7 +21,9 @@ p {
 	margin: vertical(1) 0px;
 }
 
-buzzword {  }
+// buzzword { color: $green; }
+
+.competitor { margin-left: 1em; }
 
 .portfolio {
 	.name { 
@@ -41,6 +43,7 @@ buzzword {  }
 		span {
 			font-weight: bold;
 			&.in-developement { color: $orange; }
+			&.in-production { color: $green; }
 		}
 	}
 }
