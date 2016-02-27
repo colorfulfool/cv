@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, sans-serif; }
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 54px 10px;
+  margin-bottom: 27px;
+  line-height: 54px;
+  font-size: 20px; }
+
+article {
+  width: 80ch;
+  margin: 0 auto;
+  line-height: 27px; }
+
+p {
+  font-size: 16px;
+  margin: 27px 0px; }
+
+/*# sourceMappingURL=application.css.map */

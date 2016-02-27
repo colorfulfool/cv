@@ -1,0 +1,20 @@
+@import "helpers";
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+@import "header";
+
+article {
+	width: 80ch;
+	margin: 0 auto;
+	line-height: $base-height;
+}
+
+p {
+	font-size: 16px;
+	margin: vertical(1) 0px;
+}
+
+buzzword {  }

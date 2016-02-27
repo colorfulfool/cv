@@ -1,0 +1,5 @@
+$base-height: 27px;
+
+@function vertical($times){
+	@return $base-height * $times;
+}
