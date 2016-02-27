@@ -9,7 +9,7 @@ header {
   margin-bottom: 27px;
   margin-top: 0px;
   line-height: 54px;
-  font-size: 20px; }
+  font-size: 21px; }
 
 h1 {
   margin: 0px; }
@@ -19,8 +19,27 @@ article {
   margin: 0 auto;
   line-height: 27px; }
 
+section {
+  margin-top: 54px; }
+
 p {
   font-size: 16px;
   margin: 27px 0px; }
+
+.portfolio .name {
+  margin-top: 27px; }
+  .portfolio .name a {
+    font-weight: bold; }
+.portfolio .cover {
+  column-count: 2;
+  column-gap: 30px;
+  margin: 27px 0px;
+  width: 96ch; }
+  .portfolio .cover img {
+    width: 48ch; }
+  .portfolio .cover span {
+    font-weight: bold; }
+    .portfolio .cover span.in-developement {
+      color: orange; }
 
 /*# sourceMappingURL=application.css.map */
