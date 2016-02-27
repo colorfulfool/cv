@@ -29,8 +29,11 @@ p {
 .competitor {
   margin-left: 1em; }
 
+.projects {
+  margin-bottom: -27px; }
+
 .portfolio .name {
-  margin-top: 27px; }
+  margin-top: 54px; }
   .portfolio .name a {
     font-weight: bold; }
 .portfolio .cover {
@@ -47,5 +50,14 @@ p {
       color: #ff8800; }
     .portfolio .cover span.in-production {
       color: #00c776; }
+
+.figure {
+  width: 80ch;
+  text-align: center;
+  height: 459px; }
+  .figure span {
+    color: gray; }
+  .figure img {
+    height: 100%; }
 
 /*# sourceMappingURL=application.css.map */

@@ -25,9 +25,11 @@ p {
 
 .competitor { margin-left: 1em; }
 
+.projects { margin-bottom: -1 * vertical(1); }
+
 .portfolio {
 	.name { 
-		margin-top: vertical(1);
+		margin-top: vertical(2);
 		a { font-weight: bold; }
 		
 	}
@@ -46,4 +48,14 @@ p {
 			&.in-production { color: $green; }
 		}
 	}
+}
+
+.figure {
+	width: $total-width;
+	text-align: center;
+	height: vertical(17);
+	span { 
+		color: gray;
+	}
+	img { height: 100%; }
 }
