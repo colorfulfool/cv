@@ -84,3 +84,12 @@ $stack-height: vertical(7);
 	}
 	img { height: 100%; }
 }
+
+.small.logo { 
+	text-decoration: none;
+	img {
+		height: vertical(1);
+		vertical-align: bottom;
+	}
+	footer & { margin-left: 2em; }
+}
