@@ -21,12 +21,12 @@
     article .cover {
       max-width: 100%;
       justify-content: center; }
-      article .cover img {
+      article .cover > img {
         width: 100%;
         height: initial !important; }
     article .figure {
       width: 100% !important; }
-      article .figure > img {
+      article .figure img {
         height: initial !important;
         width: 100%; }
 
