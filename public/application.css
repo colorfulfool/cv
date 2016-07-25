@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css?family=Fira+Sans:700";
+@import "https://fonts.googleapis.com/css?family=Mosterrat";
 @media only screen and (min-width: 1000px) and (max-width: 1048px) {
   img.me, anchor {
     left: 5px !important; }
@@ -11,7 +13,10 @@
 
   nav li {
     padding-left: 10px !important;
-    padding-right: 10px !important; } }
+    padding-right: 10px !important; }
+
+  article {
+    width: 100%; } }
 body {
   font-family: Helvetica, sans-serif;
   line-height: 27px;
@@ -22,12 +27,15 @@ header {
   width: 100%;
   text-align: center;
   padding: 81px 10px;
+  padding-bottom: 27px;
   margin-bottom: 27px;
   margin-top: 27px;
   line-height: 54px;
-  font-size: 21px; }
+  font-size: 23px; }
 
 h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
   margin: 0px; }
 
 [scroll-to] {
@@ -47,7 +55,8 @@ nav {
     nav ul li {
       text-transform: uppercase;
       color: #b4b4b4;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
+      font-family: "Mosterrat", sans-serif;
       display: inline-block;
       list-style-type: none;
       padding: 8.1px 2em; }
@@ -79,7 +88,8 @@ article {
 anchor {
   text-transform: uppercase;
   color: #b4b4b4;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  font-family: "Mosterrat", sans-serif;
   position: absolute;
   left: 2em; }
 
