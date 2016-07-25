@@ -1,19 +1,18 @@
 @import "https://fonts.googleapis.com/css?family=Fira+Sans:700";
 @import "https://fonts.googleapis.com/css?family=Mosterrat";
-@media only screen and (min-width: 1000px) and (max-width: 1048px) {
-  img.me, anchor {
-    left: 5px !important; }
-
-  nav li {
-    padding-left: 10px !important;
-    padding-right: 10px !important; } }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1048px) {
   img.me, anchor {
     display: none; }
 
-  nav li {
-    padding-left: 10px !important;
-    padding-right: 10px !important; } }
+  nav {
+    position: static !important; }
+    nav li {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      letter-spacing: 2px; }
+
+  article {
+    width: 90% !important; } }
 body {
   font-family: Helvetica, sans-serif;
   line-height: 27px;
