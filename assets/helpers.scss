@@ -30,7 +30,7 @@ $navigation: 'Mosterrat', sans-serif;
     width: 90% !important;
     .cover { 
       max-width: 100%; justify-content: center; 
-      > img { width: 100%; height: initial !important; }
+      > a > img { width: 100%; height: initial !important; }
     }
     .figure { 
       width: 100% !important;
