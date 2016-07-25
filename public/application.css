@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Fira+Sans:700";
 @import "https://fonts.googleapis.com/css?family=Mosterrat";
 @media only screen and (max-width: 1048px) {
-  img.me, anchor {
+  img.rounded.me, anchor {
     display: none; }
 
   nav {
@@ -13,7 +13,8 @@
 
   header {
     padding-bottom: 0px !important;
-    padding-top: 27px !important; }
+    padding-top: 27px !important;
+    margin-top: 0px !important; }
 
   article {
     width: 90% !important; }
@@ -31,6 +32,9 @@
 
   footer a {
     display: block; } }
+@media only screen and (min-width: 1048px) {
+  .circle.me {
+    display: none; } }
 body {
   font-family: Helvetica, sans-serif;
   line-height: 27px;
@@ -86,16 +90,23 @@ footer {
     margin: 0 1em; }
 
 img.me {
-  position: absolute;
-  margin-top: 5px;
-  left: 2em;
   height: 189px;
-  width: 162px;
-  border-radius: 16px;
-  background: url(portrait.jpg);
-  background-size: 180%;
-  background-position: 40% 50%;
-  box-shadow: inset 0 -15px 10px rgba(0, 0, 0, 0.4); }
+  background: url(portrait.jpg); }
+  img.me.rounded {
+    margin-top: 5px;
+    left: 2em;
+    position: absolute;
+    border-radius: 16px;
+    box-shadow: inset 0 -15px 10px rgba(0, 0, 0, 0.4);
+    width: 162px;
+    background-size: 180%;
+    background-position: 40% 50%; }
+  img.me.circle {
+    margin-bottom: 27px;
+    border-radius: 162px;
+    width: 189px;
+    background-size: 140%;
+    background-position: 40% 50%; }
 
 article {
   width: 75ch;

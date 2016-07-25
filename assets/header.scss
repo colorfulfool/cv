@@ -58,16 +58,26 @@ footer {
 }
 
 img.me {
-	position: absolute;
-	margin-top: 5px;
-	left: 2em;
 	height: vertical(7);
-	width: vertical(6);
-	border-radius: 16px;
-
 	background: url(portrait.jpg);
-	background-size: 180%;
-	background-position: 40% 50%;
 
-	box-shadow: inset 0 -15px 10px rgba(0,0,0,0.4);
+	&.rounded {
+		margin-top: 5px;
+		left: 2em;
+		position: absolute;
+		border-radius: 16px;
+		box-shadow: inset 0 -15px 10px rgba(0,0,0,0.4);
+		width: vertical(6);
+
+		background-size: 180%;
+		background-position: 40% 50%;
+	}
+	&.circle {
+		margin-bottom: vertical(1);
+
+		border-radius: vertical(6);
+		width: vertical(7);
+		background-size: 140%;
+		background-position: 40% 50%;
+	}
 }
