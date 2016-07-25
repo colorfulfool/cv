@@ -21,6 +21,23 @@ $navigation: 'Mosterrat', sans-serif;
       letter-spacing: 2px;
     }
   }
-  article { width: 90% !important; }
+  header { 
+    padding-bottom: 0px !important; 
+    padding-top: vertical(1) !important; 
+  }
+  article { 
+    width: 90% !important;
+    .cover { 
+      max-width: 100%; justify-content: center; 
+      img { width: 100%; height: initial !important; }
+    }
+    .figure { 
+      width: 100% !important;
+      img { 
+        height: initial !important;
+        width: 100%;
+      }
+    }
+  }
   footer a { display: block; }
 }
