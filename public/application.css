@@ -12,7 +12,10 @@
       letter-spacing: 2px; }
 
   article {
-    width: 90% !important; } }
+    width: 90% !important; }
+
+  footer a {
+    display: block; } }
 body {
   font-family: Helvetica, sans-serif;
   line-height: 27px;
@@ -64,6 +67,8 @@ footer {
   padding: 27px 10px;
   text-align: center;
   border-top: solid 1px gainsboro; }
+  footer .small.logo {
+    margin: 0 1em; }
 
 img.me {
   position: absolute;
@@ -148,7 +153,5 @@ p {
   .small.logo img {
     height: 27px;
     vertical-align: bottom; }
-  footer .small.logo {
-    margin-left: 2em; }
 
 /*# sourceMappingURL=application.css.map */
