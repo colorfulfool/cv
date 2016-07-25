@@ -34,7 +34,7 @@ $navigation: 'Mosterrat', sans-serif;
     }
     .figure { 
       width: 100% !important;
-      img { 
+      > img { 
         height: initial !important;
         width: 100%;
       }
