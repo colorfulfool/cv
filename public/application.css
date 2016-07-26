@@ -51,7 +51,6 @@ nav {
 footer {
   margin: 0 auto;
   margin-top: 108px;
-  width: 100%;
   padding: 27px 10px;
   text-align: center;
   border-top: solid 1px gainsboro; }
@@ -182,7 +181,8 @@ p {
       .portfolio .cover .summary span div.in-production {
         background: #00c776; }
     .portfolio .cover .summary img {
-      height: 162px; }
+      height: 162px;
+      max-width: 100%; }
 
 .figure {
   width: 75ch;
