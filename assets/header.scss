@@ -12,8 +12,9 @@ header {
 }
 
 h1 { 
-	font-family: 'Fira Sans', sans-serif; 
-	font-weight: bold; margin: 0px; 
+	font-family: 'Lato', sans-serif; 
+	font-weight: 900; margin: 0px; 
+	letter-spacing: 2px;
 }
 
 [scroll-to] { cursor: pointer; }
@@ -42,7 +43,10 @@ nav {
 			@include grayed-out;
 			display: inline-block;
 			list-style-type: none;
-			margin: vertical(0.3) 2em;
+			margin: vertical(0.5) 2em;
+
+			border-bottom: 1px solid rgba($gray, 0.5);
+			line-height: vertical(0.6);
 		}
 	}
 }

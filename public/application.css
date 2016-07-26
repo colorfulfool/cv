@@ -1,5 +1,6 @@
-@import "https://fonts.googleapis.com/css?family=Fira+Sans:700";
+@import "https://fonts.googleapis.com/css?family=Lato:900";
 @import "https://fonts.googleapis.com/css?family=Mosterrat";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500,600";
 body {
   font-family: Helvetica, sans-serif;
   line-height: 27px;
@@ -17,9 +18,10 @@ header {
   font-size: 23px; }
 
 h1 {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: bold;
-  margin: 0px; }
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  margin: 0px;
+  letter-spacing: 2px; }
 
 [scroll-to] {
   cursor: pointer; }
@@ -42,7 +44,9 @@ nav {
       font-family: "Mosterrat", sans-serif;
       display: inline-block;
       list-style-type: none;
-      margin: 8.1px 2em; }
+      margin: 13.5px 2em;
+      border-bottom: 1px solid rgba(180, 180, 180, 0.5);
+      line-height: 16.2px; }
 
 footer {
   margin: 0 auto;
@@ -83,8 +87,7 @@ img.me {
     nav li {
       margin-left: 10px !important;
       margin-right: 10px !important;
-      letter-spacing: 2px;
-      text-decoration: underline; }
+      letter-spacing: 2px; }
 
   header {
     padding: 0px !important;
@@ -110,13 +113,19 @@ img.me {
         width: 100%; }
 
   footer a {
-    display: block; }
-
-  buzzword, name {
-    font-weight: bold; } }
+    display: block; } }
 @media only screen and (min-width: 1048px) {
   .circle.me {
-    display: none; } }
+    display: none; }
+
+  header {
+    display: none; }
+
+  article {
+    margin-top: 70.2px !important; }
+
+  .summary img {
+    margin-bottom: 14px; } }
 article {
   width: 75ch;
   margin: 0 auto; }
@@ -145,7 +154,8 @@ p {
 .portfolio .name {
   margin-top: 54px; }
   .portfolio .name a {
-    font-weight: bold; }
+    font-weight: bold;
+    letter-spacing: 0.05ch; }
 .portfolio .cover {
   display: flex;
   flex-wrap: wrap;
@@ -187,5 +197,9 @@ p {
   .small.logo img {
     height: 27px;
     vertical-align: bottom; }
+
+name, buzzword {
+  font-weight: 600;
+  letter-spacing: 0.05ch; }
 
 /*# sourceMappingURL=application.css.map */
