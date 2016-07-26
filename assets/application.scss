@@ -7,6 +7,7 @@ body {
 }
 
 @import "header";
+@import "mobile";
 
 $total-width: 75ch;
 
@@ -89,3 +90,5 @@ $stack-height: vertical(7);
 		vertical-align: bottom;
 	}
 }
+
+buzzword { font-weight: bold; }

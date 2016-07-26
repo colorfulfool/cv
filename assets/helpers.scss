@@ -12,38 +12,3 @@ $gray: rgb(180, 180, 180);
 @import 'https://fonts.googleapis.com/css?family=Mosterrat';
 
 $navigation: 'Mosterrat', sans-serif;
-
-@media only screen and (max-width: 1048px) {
-  img.rounded.me, anchor { display: none };
-  nav {
-    position: static !important;
-    li {
-      padding-left: 10px !important; padding-right: 10px !important; 
-      letter-spacing: 2px;
-    }
-  }
-  header { 
-    padding-bottom: 0px !important; 
-    padding-top: vertical(1) !important; 
-    margin-top: 0px !important;
-  }
-  article { 
-    width: 90% !important;
-    .cover { 
-      max-width: 100%; justify-content: center; 
-      > a > img { width: 100%; height: initial !important; }
-    }
-    .figure { 
-      width: 100% !important;
-      img { 
-        height: initial !important;
-        width: 100%;
-      }
-    }
-  }
-  footer a { display: block; }
-}
-
-@media only screen and (min-width: 1048px) {
-  .circle.me { display: none; }
-}

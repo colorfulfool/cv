@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1048px) {
+  img.rounded.me, anchor { display: none };
+  nav {
+    position: static !important;
+    li {
+      margin-left: 10px !important; margin-right: 10px !important; 
+      letter-spacing: 2px;
+      text-decoration: underline;
+    }
+  }
+  header { 
+    padding: 0px !important; 
+    margin-top: vertical(1) !important;
+    margin-bottom: -1 * vertical(1);
+    h1 { display: none; }
+    .circle.me { margin-bottom: 0px; }
+  }
+  article { 
+    width: 90% !important;
+    .cover { 
+      max-width: 100%; justify-content: center; 
+      > a > img { width: 100%; height: initial !important; }
+    }
+    .figure { 
+      width: 100% !important;
+      img { 
+        height: initial !important;
+        width: 100%;
+      }
+    }
+  }
+  footer a { display: block; }
+
+  buzzword, name { font-weight: bold; }
+}
+
+@media only screen and (min-width: 1048px) {
+  .circle.me { display: none; }
+}
