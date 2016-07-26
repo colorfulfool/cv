@@ -112,7 +112,10 @@ img.me {
         width: 100%; }
 
   footer a {
-    display: block; } }
+    display: block; }
+    footer a.button {
+      padding: 3px 10px !important;
+      margin-bottom: 8.1px !important; } }
 @media only screen and (min-width: 1048px) {
   .circle.me {
     display: none; }
@@ -124,7 +127,10 @@ img.me {
     margin-top: 70.2px !important; }
 
   .summary img {
-    margin-bottom: 14px; } }
+    margin-bottom: 14px; }
+
+  footer .solid.button {
+    margin-right: 1ch; } }
 article {
   width: 75ch;
   margin: 0 auto; }
@@ -201,5 +207,25 @@ p {
 name, buzzword {
   font-weight: 600;
   letter-spacing: 0.05ch; }
+
+.button {
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  white-space: nowrap; }
+  .button.solid {
+    padding: 5px 15px;
+    color: white;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    max-width: 7ch;
+    margin: auto;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 4px 0px #b4b4b4; }
+    .button.solid:active {
+      box-shadow: 0 1px 0px #b4b4b4;
+      position: relative;
+      top: 4px; }
 
 /*# sourceMappingURL=application.css.map */
