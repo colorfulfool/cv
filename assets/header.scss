@@ -20,7 +20,7 @@ h1 {
 
 @mixin grayed-out {
 	text-transform: uppercase;
-	color: rgb(180, 180, 180);
+	color: $gray;
 	letter-spacing: 3px;
 	font-family: $navigation;
 }
