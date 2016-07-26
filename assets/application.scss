@@ -91,6 +91,12 @@ $stack-height: vertical(7);
 	}
 }
 
+a { 
+	color: #06c; 
+	// text-decoration: none;
+	// border-bottom: 1px solid rgba(#06c, 0.5);
+}
+
 name, buzzword { font-weight: 600; letter-spacing: 0.05ch; }
 
 @mixin pressable-with-border($color) {

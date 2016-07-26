@@ -204,6 +204,9 @@ p {
     height: 27px;
     vertical-align: bottom; }
 
+a {
+  color: #06c; }
+
 name, buzzword {
   font-weight: 600;
   letter-spacing: 0.05ch; }
