@@ -1,0 +1,10 @@
+@import "helpers";
+
+section {
+  position: relative;
+  .side-note, anchor {
+    position: absolute;
+    right: $total-width + 4;
+    white-space: nowrap;
+  }
+}

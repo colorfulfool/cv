@@ -8,8 +8,7 @@ body {
 
 @import "header";
 @import "mobile";
-
-$total-width: 75ch;
+@import "side-notes";
 
 article {
 	width: $total-width;
@@ -18,9 +17,8 @@ article {
 
 anchor {
 	@include grayed-out;
-	position: absolute;
-	// margin-left: -100px;
-	left: 2em;
+
+  text-align: right;
 }
 
 section { margin-top: vertical(2); }
