@@ -65,6 +65,7 @@ $stack-height: vertical(7);
 					position: relative; top: 1px;
 					&.in-developement { background: $orange; }
 					&.in-production { background: $green; }
+					&.in-retirement { background: $gray; }
 				}
 			}
 			img { height: vertical(6); max-width: 100%; }
