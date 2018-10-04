@@ -237,3 +237,6 @@ name, buzzword {
       box-shadow: 0 1px 0px #b4b4b4;
       position: relative;
       top: 4px; }
+
+.border {
+  border: 1px solid rgba(180, 180, 180, 0.5); }

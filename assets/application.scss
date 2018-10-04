@@ -121,3 +121,7 @@ name, buzzword { font-weight: 600; letter-spacing: 0.05ch; }
     @include pressable-with-border($gray);
   }
 }
+
+.border {
+  border: 1px solid rgba($gray, 0.5);
+}
