@@ -39,6 +39,7 @@ nav {
 	ul {
 		margin: 0;
 		padding: 0;
+    
 		li {
 			@include grayed-out;
 			display: inline-block;
@@ -47,6 +48,8 @@ nav {
 
 			border-bottom: 1px solid rgba($gray, 0.5);
 			line-height: vertical(0.6);
+      
+      &:hover { border-color: $gray; }
 		}
 	}
 }
