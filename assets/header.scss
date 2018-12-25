@@ -64,25 +64,25 @@ footer {
 }
 
 img.me {
-	height: vertical(7);
-	background: url(portrait-with-glasses.jpg);
+	height: vertical(6);
+	background: url(desaturated-uncropped.jpg);
 
 	&.rounded {
 		margin-top: 5px;
 		border-radius: 16px;
-		box-shadow: inset 0 -15px 10px rgba(0,0,0,0.4);
+    box-shadow: inset 0 -5px 10px rgba(0,0,0,0.4);
 		width: vertical(6);
 
-		background-size: 180%;
-		background-position: 40% 50%;
+		background-size: 100%;
+//    background-position: 40% 50%;
 	}
 	&.circle {
 		margin-bottom: vertical(1);
 		border-radius: vertical(6);
 		width: vertical(7);
-		box-shadow: inset 0 -10px 10px rgba(0,0,0,0.4);
+		box-shadow: inset 0 -5px 5px rgba(0,0,0,0.4);
 
-		background-size: 140%;
-		background-position: 40% 50%;
+		background-size: 100%;
+//    background-position: 40% 50%;
 	}
 }
