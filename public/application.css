@@ -68,14 +68,14 @@ img.me {
   img.me.rounded {
     margin-top: 5px;
     border-radius: 16px;
-    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.4);
+    // box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.4);
     width: 162px;
     background-size: 100%; }
   img.me.circle {
     margin-bottom: 27px;
     border-radius: 162px;
     width: 189px;
-    box-shadow: inset 0 -5px 5px rgba(0, 0, 0, 0.4);
+    // box-shadow: inset 0 -5px 5px rgba(0, 0, 0, 0.4);
     background-size: 100%; }
 
 @media only screen and (max-width: 1048px) {
