@@ -47,8 +47,6 @@ h1 {
   cursor: pointer; }
 
 nav {
-  position: fixed;
-  top: 0;
   background: white;
   border-bottom: solid 1px gainsboro;
   width: 100%;
@@ -65,10 +63,30 @@ nav {
       display: inline-block;
       list-style-type: none;
       margin: 13.5px 2em;
-      border-bottom: 1px solid rgba(180, 180, 180, 0.5);
+      border-bottom: 1px solid #b4b4b4;
       line-height: 16.2px; }
+      nav ul li a {
+        color: inherit;
+        text-decoration: none; }
       nav ul li:hover {
         border-color: #b4b4b4; }
+
+.breadcrumbs {
+  line-height: 16.2px; }
+  .breadcrumbs__level {
+    text-transform: uppercase;
+    color: #b4b4b4;
+    letter-spacing: 3px;
+    font-family: "Mosterrat", sans-serif;
+    display: inline-block;
+    margin: 13.5px 0.5ex; }
+    .breadcrumbs__level.above {
+      text-decoration: none;
+      border-bottom: 1px solid rgba(180, 180, 180, 0.5); }
+      .breadcrumbs__level.above:hover {
+        border-color: #b4b4b4; }
+  .breadcrumbs__separator {
+    color: rgba(180, 180, 180, 0.5); }
 
 footer {
   margin: 0 auto;
@@ -139,9 +157,6 @@ img.me {
 
   header {
     display: none; }
-
-  article {
-    margin-top: 70.2px !important; }
 
   .summary img {
     margin-bottom: 14px; }
