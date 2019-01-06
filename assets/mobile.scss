@@ -39,7 +39,7 @@
 @media only screen and (min-width: 1048px) {
   .circle.me { display: none; }
   header { display: none; }
-  article { margin-top: vertical(1.6 + 1) !important; }
+//  article { margin-top: vertical(1.6 + 1) !important; } // account for fixed header
   .summary img { margin-bottom: 14px; }
   footer .solid.button { margin-right: 1ch; }
 }

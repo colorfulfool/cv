@@ -6,8 +6,8 @@ header {
 	text-align: center;
 	padding: vertical(3) 10px;
 	padding-bottom: vertical(1);
-	margin-bottom: vertical(1);
-	margin-top: vertical(1);
+  margin-bottom: vertical(1);
+  margin-top: vertical(1);
 
 	line-height: vertical(2);
 	font-size: 23px;
@@ -29,8 +29,7 @@ h1 {
 }
 
 nav {
-	position: fixed;
-	top: 0;
+//  position: fixed; top: 0;
 	background: white;
 	// box-shadow: 0 5px 0 rgba(0,0,0,0.1);
 	border-bottom: solid 1px rgb(220, 220, 220);
