@@ -48,12 +48,41 @@ nav {
 			list-style-type: none;
 			margin: vertical(0.5) 2em;
 
-			border-bottom: 1px solid rgba($gray, 0.5);
+			border-bottom: 1px solid $gray;
 			line-height: vertical(0.6);
+      
+      a { 
+        color: inherit;
+        text-decoration: none;
+      }
       
       &:hover { border-color: $gray; }
 		}
 	}
+}
+
+.breadcrumbs {
+	line-height: vertical(0.6);
+  
+  &__level {
+		@include grayed-out;
+		display: inline-block;
+		margin: vertical(0.5) 2em;
+
+    &.above {
+      text-decoration: none;
+  		border-bottom: 1px solid $lightgray;
+      &:hover { border-color: $gray; }
+    }
+    
+    &.current {
+      
+    }
+  }
+  
+  &__separator {
+    color: $lightgray;
+  }
 }
 
 footer {
