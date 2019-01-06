@@ -15,15 +15,22 @@ body {
 article {
 	width: $total-width;
 	margin: 0 auto;
+  
+  padding-top: vertical(1);
+  padding-bottom: vertical(4);
+
+//  border-left: 1px solid $lightgray;
+//  padding-left: 2ex;
 }
 
 anchor {
 	@include grayed-out;
-
   text-align: right;
 }
 
-section { margin-top: vertical(2); }
+section:not(:first-of-type) { 
+  margin-top: vertical(2); 
+}
 
 p {
 	font-size: $base-font;
