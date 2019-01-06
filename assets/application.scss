@@ -99,9 +99,9 @@ $stack-height: vertical(7);
 }
 
 a { 
-	color: #06c; 
+	color: $blue; 
 	// text-decoration: none;
-	// border-bottom: 1px solid rgba(#06c, 0.5);
+	// border-bottom: 1px solid rgba($blue, 0.5);
 }
 
 
